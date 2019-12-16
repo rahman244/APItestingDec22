@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" parallel="methods" >
+    <test name="test">
 
-<suite name="Amazon Automation Script " parallel="false">
+       <!--
+ <parameter name="mybrowser" value=" firefox"/>
+
+        <parameter name="mybrowser" value="chrome"/>
+        -->
+        <parameter name="mybrowser" value=" firefox"/>
 
 
-    <test name = "Amazon Home">
+
         <classes>
-
-            <class name="pagesTest.SearchPageTest"/>
-
-            <class name="pagesTest.SearchPageTest2"/>
-
+            <class name="pagesTest.SearchPageTest">
+            </class>
         </classes>
     </test>
-
 </suite>

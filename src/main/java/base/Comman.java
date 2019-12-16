@@ -8,12 +8,14 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import org.testng.ITestResult;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.*;
 
 
 import java.io.IOException;
-import java.lang.reflect.Method;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -34,13 +36,31 @@ public class Comman {
         extent.attachReporter(htmlReporter);
     }
 
-
+@Parameters("mybrowser")
     @BeforeMethod
-    public void setUp() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\mohammad.haque01\\Desktop\\Testing\\AmazanAutomation\\browser-driver\\chromedriver.exe");
+    public void setUp(String mybrowser) throws InterruptedException {
+    String projectPath=System.getProperty("user.dir");
+        if(mybrowser.equalsIgnoreCase("chrome")){
 
-        driver = new ChromeDriver();
-        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+            System.setProperty("webdriver.chrome.driver",projectPath+ "\\browser-driver\\chromedriver.exe");
+
+
+           // System.setProperty("webdriver.chrome.driver", "C:\\Users\\mohammad.haque01\\Desktop\\Testing\\AmazanAutomation\\browser-driver\\chromedriver.exe");
+
+            driver = new ChromeDriver();
+
+        }
+        else if(mybrowser.equalsIgnoreCase("firefox")){
+            //System.setProperty("webdriver.gecko.driver",projectPath+ "\\browser-driver\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "C:\\Users\\mohammad.haque01\\Desktop\\Testing\\AmazanAutomation\\browser-driver\\geckodriver2.exe");
+            DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+            capabilities.setCapability("marionette",true);
+            driver= new FirefoxDriver(capabilities);
+           // driver= new FirefoxDriver();
+
+        }
+
+       // driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get("https://www.amazon.com/");
         driver.manage().window().maximize();
 
