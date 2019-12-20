@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" parallel="classes" >
+    <test name="test1">
+
+       <!--
+ <parameter name="url" value="https://www.amazon.com/"/>
+ <parameter name="mybrowser" value="firefox"/>
+ <parameter name="mybrowser" value="chrome"/>
+        -->
+
+
+        <parameter name="mybrowser" value="cgdhd"/>
+
+        <classes>
+
+
+            <class name="pagesTest.SearchPageTest"></class>
+
+        </classes>
+    </test>
+
+</suite>
+
+
+
+        <!--
+         <test name="test2">
+
+        </class>
+            <class name="pagesTest.SearchPageTest">
+            </class>
+     <classes>
+  <class name="pagesTest.SearchPageTest2">
+
+  <parameter name="mybrowser" value="firefox"/>
+  <parameter name="mybrowser" value="chrome"/>
+         -->
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+base\TestLogger.class
+base\Comman.class
+pages\SearchPage2.class
+base\ExtentManager.class
+pages\SearchPage.class
