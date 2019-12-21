@@ -10,12 +10,13 @@
         -->
 
 
-        <parameter name="mybrowser" value="cgdhd"/>
+        <parameter name="mybrowser" value="chrome"/>
 
         <classes>
 
 
-            <class name="pagesTest.SearchPageTest"></class>
+            <class name="pagesTest.Guru99Test"></class>
+
 
         </classes>
     </test>

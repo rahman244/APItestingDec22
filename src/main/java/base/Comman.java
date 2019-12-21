@@ -32,7 +32,7 @@ public class Comman {
         }
 
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
-        driver.get("https://www.walmart.com/");
+        driver.get("http://demo.guru99.com/test/login.html");
         driver.manage().window().maximize();
 
 
@@ -40,7 +40,7 @@ public class Comman {
     @AfterMethod
     public  void afterMethod()  {
 
-driver.close();
+    // driver.close();
     }
 
 }

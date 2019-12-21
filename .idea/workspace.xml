@@ -2,34 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28178842-938e-46e5-ac1a-b886dcb785a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Guru99.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseApi/APITesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesTest/Guru99Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/Guru99.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/baseApi/APITesting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pagesTest/Guru99Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmazanAutomation.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AmazonTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNGRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/extentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/Comman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Comman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/ExtentManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/TestLogger.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pagesTest/SearchPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesTest/SearchPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pagesTest/SearchPageTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pagesTest/firefoxtest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/AmazanAutomation.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/AmazanAutomation.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/base/Comman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/Comman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/ExtentManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/TestLogger.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/AmazanAutomation.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/AmazanAutomation.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchPage2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/pagesTest/SearchPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pagesTest/SearchPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesTest/SearchPageTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pagesTest/SearchPageTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesTest/firefoxtest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/TestSuite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestSuite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesTest/SearchPageTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testNGRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNGRunner.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages2" />
       <recent name="pagesTest" />
       <recent name="pages" />
       <recent name="base" />
@@ -88,7 +78,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchPageTest.search">
+  <component name="RunManager" selected="TestNG.APITesting.GetWeatherDetails">
+    <configuration name="APITesting.GetWeatherDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AmazanAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baseApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="baseApi" />
+      <option name="MAIN_CLASS_NAME" value="baseApi.APITesting" />
+      <option name="METHOD_NAME" value="GetWeatherDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Sunzida/Desktop/ProjectKATeam/SeleniumTestNGextentReport/testNGRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AmazanAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testNGRunner.xml" />
@@ -99,36 +107,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/mohammad.haque01/Desktop/Testing/AmazanAutomation/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AmazanAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/AmazonTestRunner.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="org.testng.reporters.EmailableReporter" />
-        <listener class="org.testng.reporters.FailedReporter" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Home" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Guru99Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AmazanAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pages.*" />
+          <option name="PATTERN" value="pagesTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pages" />
-      <option name="MAIN_CLASS_NAME" value="pages.Home" />
+      <option name="PACKAGE_NAME" value="pagesTest" />
+      <option name="MAIN_CLASS_NAME" value="pagesTest.Guru99Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -136,24 +124,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Home2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Guru99Test.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AmazanAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pages.*" />
+          <option name="PATTERN" value="pagesTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pages" />
-      <option name="MAIN_CLASS_NAME" value="pages.Home2" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="pagesTest" />
+      <option name="MAIN_CLASS_NAME" value="pagesTest.Guru99Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchPageTest.search" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AmazanAutomation" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +152,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="pagesTest" />
       <option name="MAIN_CLASS_NAME" value="pagesTest.SearchPageTest" />
-      <option name="METHOD_NAME" value="search" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -172,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/mohammad.haque01/Desktop/Testing/AmazanAutomation/AmazonTestRunner.xml" />
       <item itemvalue="TestNG.C:/Users/Sunzida/Desktop/ProjectKATeam/SeleniumTestNGextentReport/testNGRunner.xml" />
-      <item itemvalue="TestNG.Home" />
-      <item itemvalue="TestNG.Home2" />
-      <item itemvalue="TestNG.SearchPageTest.search" />
+      <item itemvalue="TestNG.SearchPageTest" />
+      <item itemvalue="TestNG.Guru99Test" />
+      <item itemvalue="TestNG.Guru99Test.test" />
+      <item itemvalue="TestNG.APITesting.GetWeatherDetails" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchPageTest.search" />
+        <item itemvalue="TestNG.APITesting.GetWeatherDetails" />
         <item itemvalue="TestNG.C:/Users/Sunzida/Desktop/ProjectKATeam/SeleniumTestNGextentReport/testNGRunner.xml" />
-        <item itemvalue="TestNG.Home2" />
-        <item itemvalue="TestNG.Home" />
-        <item itemvalue="TestNG.C:/Users/mohammad.haque01/Desktop/Testing/AmazanAutomation/AmazonTestRunner.xml" />
+        <item itemvalue="TestNG.Guru99Test" />
+        <item itemvalue="TestNG.Guru99Test.test" />
+        <item itemvalue="TestNG.SearchPageTest" />
       </list>
     </recent_temporary>
   </component>

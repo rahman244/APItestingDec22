@@ -19,6 +19,8 @@ public class SearchPageTest extends Comman {
         SearchPage searchPage =new SearchPage();
        // SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);
 
-        searchPage.test();
+        searchPage.test1();
     }
 }
+
+
