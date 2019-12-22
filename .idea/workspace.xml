@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28178842-938e-46e5-ac1a-b886dcb785a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Guru99.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseApi/APITesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pagesTest/Guru99Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pages/Guru99.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/baseApi/APITesting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pagesTest/Guru99Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DropDownCheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseAPIKA/APITestingKA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseApi/NipaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseApi/TeamAPITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesTest/DropDownCheckBoxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/base/Comman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Comman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pagesTest/SearchPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesTest/SearchPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Guru99.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Guru99.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseApi/APITesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseApi/APITesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/base/Comman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/Comman.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchPage2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesTest/SearchPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pagesTest/SearchPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesTest/SearchPageTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/Guru99.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Guru99.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/baseApi/APITesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/baseApi/APITesting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testNGRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNGRunner.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,8 +74,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.APITesting.GetWeatherDetails">
-    <configuration name="APITesting.GetWeatherDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TeamAPITest.getWeather">
+    <configuration name="DropDownCheckBox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AmazanAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.DropDownCheckBox" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropDownCheckBoxTest.radio" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AmazanAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pagesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pagesTest" />
+      <option name="MAIN_CLASS_NAME" value="pagesTest.DropDownCheckBoxTest" />
+      <option name="METHOD_NAME" value="radio" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropDownCheckBox.checkbox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AmazanAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.DropDownCheckBox" />
+      <option name="METHOD_NAME" value="checkbox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropDownCheckBox.radiobox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AmazanAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pages" />
+      <option name="MAIN_CLASS_NAME" value="pages.DropDownCheckBox" />
+      <option name="METHOD_NAME" value="radiobox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamAPITest.getWeather" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AmazanAutomation" />
       <extension name="coverage">
         <pattern>
@@ -88,71 +155,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="baseApi" />
-      <option name="MAIN_CLASS_NAME" value="baseApi.APITesting" />
-      <option name="METHOD_NAME" value="GetWeatherDetails" />
+      <option name="MAIN_CLASS_NAME" value="baseApi.TeamAPITest" />
+      <option name="METHOD_NAME" value="getWeather" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Sunzida/Desktop/ProjectKATeam/SeleniumTestNGextentReport/testNGRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AmazanAutomation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNGRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Guru99Test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AmazanAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pagesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pagesTest" />
-      <option name="MAIN_CLASS_NAME" value="pagesTest.Guru99Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Guru99Test.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AmazanAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pagesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pagesTest" />
-      <option name="MAIN_CLASS_NAME" value="pagesTest.Guru99Test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AmazanAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pagesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pagesTest" />
-      <option name="MAIN_CLASS_NAME" value="pagesTest.SearchPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -160,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/Sunzida/Desktop/ProjectKATeam/SeleniumTestNGextentReport/testNGRunner.xml" />
-      <item itemvalue="TestNG.SearchPageTest" />
-      <item itemvalue="TestNG.Guru99Test" />
-      <item itemvalue="TestNG.Guru99Test.test" />
-      <item itemvalue="TestNG.APITesting.GetWeatherDetails" />
+      <item itemvalue="TestNG.DropDownCheckBoxTest.radio" />
+      <item itemvalue="TestNG.DropDownCheckBox.radiobox" />
+      <item itemvalue="TestNG.DropDownCheckBox.checkbox" />
+      <item itemvalue="TestNG.DropDownCheckBox" />
+      <item itemvalue="TestNG.TeamAPITest.getWeather" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.APITesting.GetWeatherDetails" />
-        <item itemvalue="TestNG.C:/Users/Sunzida/Desktop/ProjectKATeam/SeleniumTestNGextentReport/testNGRunner.xml" />
-        <item itemvalue="TestNG.Guru99Test" />
-        <item itemvalue="TestNG.Guru99Test.test" />
-        <item itemvalue="TestNG.SearchPageTest" />
+        <item itemvalue="TestNG.TeamAPITest.getWeather" />
+        <item itemvalue="TestNG.DropDownCheckBoxTest.radio" />
+        <item itemvalue="TestNG.DropDownCheckBox" />
+        <item itemvalue="TestNG.DropDownCheckBox.checkbox" />
+        <item itemvalue="TestNG.DropDownCheckBox.radiobox" />
       </list>
     </recent_temporary>
   </component>

@@ -32,7 +32,10 @@ public class Comman {
         }
 
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
-        driver.get("http://demo.guru99.com/test/login.html");
+       //driver.get("http://www.executeautomation.com/demosite/Login.html");
+       driver.get("http://demo.guru99.com/test/radio.html");
+
+
         driver.manage().window().maximize();
 
 
