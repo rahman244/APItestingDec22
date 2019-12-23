@@ -21,7 +21,7 @@ public class APITesting {
         String Body = r.getBody().asString();
         System.out.println("Response Body is =>  " + Body);
     }
-   @Test
+
     public void WeatherDetails1(){
 
     RestAssured.baseURI= "http://restapi.demoqa.com/utilities/weather/city";
@@ -31,7 +31,7 @@ public class APITesting {
        System.out.println("Response Body is => " +reponseBody);
 
     }
-@Test
+
     public void DetailsWeather2(){
 
     RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
@@ -42,7 +42,7 @@ public class APITesting {
 
 
     }
- @Test
+
     public void WeatherDelGet3(){
 
     RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
@@ -53,17 +53,19 @@ public class APITesting {
 
 
     }
-   @Test
-    public void GetWeatherDetails4(){
+  @Test
+   public void TexasWeather(){
+    RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
+    RequestSpecification requs = RestAssured.given();
+    Response resp = requs.request(Method.GET,"/plano");
+    String ss = resp.getBody().asString();
 
-   RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
-   RequestSpecification httpRequest = RestAssured.given();
-   Response response = httpRequest.request(Method.GET,"/houston");
-   String responseBody = response.getBody().asString();
-       System.out.println("Response Body is =>" + responseBody);
+       System.out.println("the weather in plano is =>" +ss);
 
 
+
+   }
 
     }
 
-}
+

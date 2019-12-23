@@ -16,7 +16,7 @@
         <classes>
 
 
-            <class name="pagesTest.DropDownCheckBoxTest"></class>
+            <class name="baseApi.NipaTest"></class>
 
 
         </classes>
